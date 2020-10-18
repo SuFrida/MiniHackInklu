@@ -10,7 +10,7 @@ public class DatabaseManager : MonoBehaviour{
 
     void Start(){
       // Set this before calling into the realtime database.
-      FirebaseApp.DefaultInstance.SetEditorDatabaseUrl("**********URL PROYECTO**************");
+      FirebaseApp.DefaultInstance.SetEditorDatabaseUrl("https://inklu-database.firebaseio.com/");
       // Get the root reference location of the database.
       reference = FirebaseDatabase.DefaultInstance.RootReference;
     }
