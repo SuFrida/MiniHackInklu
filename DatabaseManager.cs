@@ -19,6 +19,7 @@ public class DatabaseManager : MonoBehaviour{
 
     }
 
+    //Esta función se tiene que llamar cuando se quiera subir la info del jugador
     private void writeNewPlayerData(string playerID, List<UserDataPiece> userDataPieces) {
         PlayerData_SO playerData = new PlayerData_SO(userDataPieces);
         playerData.dashPlayerData();
